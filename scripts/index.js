@@ -1,3 +1,4 @@
-function openPlayer(id){
-    window.location.href = `player.html?id=${id}`;
-} 
+function openPlayer(section, id) {
+    window.location.href = `player.html?section=${section}&id=${id}`;
+  }
+  

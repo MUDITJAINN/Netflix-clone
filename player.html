@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Player</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class=""> 
-
-    </div>
-    <script>
-        var player = document.createElement('audio');
-        player.src = 'https://www.soundjay.com/button/beep-07.wav';
-        player.play();
-    </script>
+  <h1 id="movieTitle">Loading...</h1>
+  <div id="videoContainer">
+    <iframe id="youtubePlayer" width="100%" height="500" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <script src="scripts/player.js"></script>
 </body>
 </html>
